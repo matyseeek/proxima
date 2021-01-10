@@ -11,7 +11,7 @@ echo "export GPU_MAX_HEAP_SIZE=100">>$MINER_SCRIPT_NAME
 echo "export GPU_USE_SYNC_OBJECTS=1">>$MINER_SCRIPT_NAME
 echo "while true">>$MINER_SCRIPT_NAME
 echo "do">>$MINER_SCRIPT_NAME
-echo "./teamredminer -a ethash -o stratum+tcp://eu1.ethermine.org:4444 -u 0x48df7ae413846a78ad302f5f6b5dcb7b2eeb350d --eth_worker $JMENO_SERVERU">>$MINER_SCRIPT_NAME
+echo "./teamredminer -a ethash -o stratum+tcp://eu1.ethermine.org:4444 -u 0xAEcf21211267270E708030a624D1ebF2F9C12DF1 --eth_worker $JMENO_SERVERU">>$MINER_SCRIPT_NAME
 echo "sleep 1">>$MINER_SCRIPT_NAME
 echo "done">>$MINER_SCRIPT_NAME
 chmod +x $MINER_SCRIPT_NAME
