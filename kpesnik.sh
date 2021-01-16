@@ -33,6 +33,4 @@ service ssh restart
 rm -R /etc/update-motd.d/*
 echo "Welcome to Cubelogy" > /etc/motd
 cd /root/data/proxima/
-screen -dmS trm /root/data/proxima
-
-/./'$MINER_SCRIPT_NAME> /root/data/startup.bash
+screen -dmS trm /root/data/proxima/./'$MINER_SCRIPT_NAME> /root/data/startup.bash
